@@ -9,7 +9,14 @@
 		"release": "standard-version"
 	},
 	"standard-version": {
-		"t": ""
+		"t": "",
+		"types": [
+			{
+				"type": "docs",
+				"section": "Documentation"
+			}
+		],
+		"header": "## Changelog"
 	},
 	"keywords": [],
 	"author": "",
