@@ -1,7 +1,7 @@
 {
-	"name": "plugin",
+	"name": "obsidian-sample-plugin",
 	"version": "0.0.1",
-	"description": "",
+	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
 	"main": "main.js",
 	"scripts": {
 		"dev": "rollup --config rollup.config.js -w",
