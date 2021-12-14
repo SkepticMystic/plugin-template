@@ -12,6 +12,14 @@
 		"t": "",
 		"types": [
 			{
+				"type": "feat",
+				"section": "Features"
+			},
+			{
+				"type": "fix",
+				"section": "Fixes"
+			},
+			{
 				"type": "docs",
 				"section": "Documentation"
 			}
