@@ -1,21 +1,13 @@
 import { Plugin } from "obsidian";
+import { DEFAULT_SETTINGS } from "./const";
+import { MyPluginSettings } from "./interfaces";
 import { SettingTab } from "./SettingTab";
-
-interface MyPluginSettings {}
-
-const DEFAULT_SETTINGS: MyPluginSettings = {};
 
 export default class MyPlugin extends Plugin {
   settings: MyPluginSettings;
 
   async onload() {
     await this.loadSettings();
-
-    this.addCommand({
-      id: "cmd",
-      name: "Command",
-      callback: () => {},
-    });
     this.addSettingTab(new SettingTab(this.app, this));
   }
 
